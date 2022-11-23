@@ -1,0 +1,61 @@
+#front-section-icons {
+	background: rgb(47, 58, 62);
+}
+
+.front-icons-container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 60px 0;
+}
+
+.front-icons-item {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.front-icons-item i {
+	font-size: 50px;
+}
+
+.front-icons-item-p {
+	text-align: center;
+}
+
+/* Our Services */
+
+#front-our-services {
+	background: #C28A3E;
+	padding: 40px 0 80px;
+	color: #fff;
+}
+
+.front-our-services-title {
+	text-align: center;
+}
+
+.front-our-services-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.front-our-services-single-card {
+	display: flex;
+	flex-direction: column;
+	border: 5px dotted black;
+	width: 300px;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 10px 20px;
+}
+
+.front-our-services-single-card img {
+	max-width: 100px;
+	max-height: 100px;
+	margin-bottom: 30px;
+}

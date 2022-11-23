@@ -1,0 +1,9 @@
+/**
+ * Cakum Pakum main css file
+ */
+
+ /* Default css rules */
+@import "default.css";
+
+@import "header.css";
+@import "front-page.css";
